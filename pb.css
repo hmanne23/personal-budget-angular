@@ -1,7 +1,7 @@
 header img{
     height: 80px;
     margin-left: 40px;
-    width: 100px; /* Adjust the width and height as needed */
+    width: 100px; 
     height: 90px;
     border-radius: 50%;
     overflow: hidden;
@@ -109,20 +109,17 @@ aside {
     margin: 10px;
     padding: 5px;
   }
-/* Style the footer element */
-footer {
-    background-color: #ababd2; /* Background color for the footer */
-    color: white; /* Text color for the footer */
-    padding: 20px 0; /* Add padding to the top and bottom of the footer */
-    text-align: center; /* Center-align the content */
+
+  footer {
+    background-color: #ababd2;
+    color: white; 
+    padding: 20px 0;
+    text-align: center;
 }
 
-
-
-/* Style the &copy; symbol */
 .center::after {
-    content: "\00a9"; /* Use the © symbol */
-    margin-left: 5px; /* Add some spacing between the text and the symbol */
+    content: "\00a9"; 
+    margin-left: 5px; 
 }
 
 .mark{
