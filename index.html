@@ -3,24 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- This is a SEO change -->
+        <meta name="description" content="Manage your personal budget effectively with our free app. Stay on track, get alerts, and achieve financial goals.">
+        <meta name="author" content="Harshitha, course ITIS-5166 NBAD Course ">
+        <meta name="robots" content="index,follow">
+
+        <link rel="canonical" href="https://google.com">
+
+
     <title>Personal Budget</title>
-    <link rel="stylesheet" href="/reset.css">
-    <link rel="stylesheet" href="/main.css">
+    <!-- <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/main.css"> -->
+    <link rel="stylesheet" href="/Users/harshi/Desktop/dev/personal-budget1/pb.css">
+
+    <!-- This is a SEO change -->
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebPage",
+            "name": "Personal Budget",
+            "description": "Manage your personal budget",
+            "url": "https://google.com",
+            "author": {
+                "@type": "Person",
+                "name": "Harshitha Manne"
+            }
+        }
+        </script>
 </head>
 <body>
-
+    <header>
+        <!-- This is a SEO change -->
+        <!-- This is a A11y change -->
+        <img src="bg.png" alt="Background Main Image" aria-hidden="true"> 
     <div class="menu">
+        <!-- This is a semantic change -->
+        <nav>
         <ul>
-            <li><a href="/">Homepage</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/login.html">Login</a></li>
-            <li><a href="https://google.com">Google</a></li>
+            <li id="home"><a href="/">Homepage</a></li>
+            <li id="about"><a href="/about.html">About</a></li>
+            <li id="login"><a href="/Users/harshi/Desktop/dev/personal-budget1/login.html">Login</a></li>
+            <li id="google"><a href="https://google.com">Google</a></li>
         </ul>
+        </nav>
     </div>
+</header>
 
     <div class="hero">
-        <h1>Personal Budget</h1>
-        <h2>A personal-budget management app</h2>
+        <!-- This is a11y change -->
+        <h1>Personal Budget - A personal-budget management app</h1>
     </div>
 
     <div class="container center">
@@ -34,19 +67,28 @@
                     you would get surprised! Proper budget management depends on real data... and this
                     app will help you with that!
                 </p>
+                <!-- This is a semantic change -->
+                <aside>
+                    <h2>Tips:</h2>
+                    <ul>
+                        <li>Keep receipts for all purchases.</li>
+                        <li>Create a monthly budget plan.</li>
+                        <li>Review your expenses regularly.</li>
+                    </ul>
+                </aside>
             </div>
     
             <div class="text-box">
                 <h1>Alerts</h1>
                 <p>
-                    What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
+                    What if your clothing budget ended? You will get an alert. <mark class="mark">The goal is to never go over the budget</mark>
                 </p>
             </div>
     
             <div class="text-box">
                 <h1>Results</h1>
                 <p>
-                    People who stick to a financial plan, budgeting every expense, get out of debt faster!
+                    People who stick to a <mark class="mark">financial plan, budgeting every expense</mark>, get out of debt faster!
                     Also, they to live happier lives... since they expend without guilt or fear... 
                     because they know it is all good and accounted for.
                 </p>
@@ -58,8 +100,11 @@
                     This app is free!!! And you are the only one holding your data!
                 </p>
             </div>
-    
-            <div class="text-box">
+
+            <!-- This is a semantic change -->
+
+            <article class="All">
+            <div class="text">
                 <h1>Stay on track</h1>
                 <p>
                     Do you know where you are spending your money? If you really stop to track it down,
@@ -67,15 +112,16 @@
                     app will help you with that!
                 </p>
             </div>
+     
     
-            <div class="text-box">
+            <div class="text">
                 <h1>Alerts</h1>
                 <p>
                     What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
                 </p>
             </div>
     
-            <div class="text-box">
+            <div class="text">
                 <h1>Results</h1>
                 <p>
                     People who stick to a financial plan, budgeting every expense, get out of debt faster!
@@ -84,22 +130,25 @@
                 </p>
             </div>
     
-            <div class="text-box">
+            <div class="text">
                 <h1>Free</h1>
                 <p>
                     This app is free!!! And you are the only one holding your data!
                 </p>
             </div>
-
+        </article>
         </div>
 
     </div>
 
+    <!-- This is a semantic change -->
+    <footer>
     <div class="bottom">
         <div class="center">
             All rights reserved &copy; Fabio Nolasco
         </div>
     </div>
+</footer>
 
 </body>
 </html>
