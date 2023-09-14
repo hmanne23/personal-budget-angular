@@ -1,3 +1,4 @@
+
 header img{
     height: 80px;
     margin-left: 40px;
@@ -124,5 +125,13 @@ aside {
 
 .mark{
     background-color: #b4c6f0;
+}
+
+#myChart {
+    width: 300px !important;
+    height: 300px !important;
+    /* display: flex !important;
+    justify-content: center !important;
+    align-items: center !important; */
 }
 
