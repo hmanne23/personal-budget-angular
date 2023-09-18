@@ -255,7 +255,6 @@ var svg = d3.select("body")
                                     '#A2D8D8',
                                     '#FF6B6B']);
                 
-                // Add a click event listener to the "Randomize" button
                 d3.select(".randomize")
                     .on("click", function() {
                         var randomData = generateRandomData();
@@ -269,7 +268,6 @@ var svg = d3.select("body")
                     });
                 }
                 
-                        // Fetch data from the server using Axios
                         axios.get('/budget')
                             .then(function (res) {
                                 var data = res.data.myBudget;
@@ -280,7 +278,6 @@ var svg = d3.select("body")
                             });
                 
                         function updateChart(data) {
-                            /* ------- PIE SLICES ------- */
                             var slice = svg.select(".slices").selectAll("path.slice")
                                 .data(pie(data), key);
                 
@@ -303,7 +300,6 @@ var svg = d3.select("body")
                             slice.exit()
                                 .remove();
                 
-                            /* ------- TEXT LABELS ------- */
                             var text = svg.select(".labels").selectAll("text")
                                 .data(pie(data), key);
                 
@@ -343,7 +339,6 @@ var svg = d3.select("body")
                             text.exit()
                                 .remove();
                 
-                            /* ------- SLICE TO TEXT POLYLINES ------- */
                             var polyline = svg.select(".lines").selectAll("polyline")
                                 .data(pie(data), key);
                 
